@@ -1,0 +1,155 @@
+body {
+text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  text-align: center;
+}
+
+p {
+text-align: center;
+font-size: 1rem;
+}
+
+
+/* Headings */
+
+.red-donate-button{
+  background-color: #ed1b30;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.container{
+  padding-top: 1%;
+  padding-bottom: 5%;
+}
+
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 1rem;
+}
+.white-box{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.big-white-heading{
+  font-family: "Roboto";
+  font-weight: bolder;
+  font-size: 3em;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  padding: 5% ;
+}
+
+/* Containers */
+
+/* Sections */
+.black-background{
+  background-color: #010101;
+}
+
+.extra-padding{
+  padding-top: 5%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.nav-item {
+  padding: 0 18px
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-caption{
+  font-size: 3rem;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.connect-statement{
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+.solution-paragraph {
+  text-align: left;
+  font-size: 1.25rem;
+  font-family: "Roboto";
+  font-weight: lighter;
+}
+
+.social-media {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: normal;
+
+}
+
+.issues-pictures{
+  align-self:center;
+}
+
+.little-box{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  background-color: #ed1b30;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.black{
+  background-color: #010101;
+  color: #ffffff;
+
+}
+
+#issues{
+  background-color: #ed1b30;
+  color: #fff;
+
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+#solution
+
+#current-initiatives{
+  background-color: #010101;
+  color: #fff;
+}
