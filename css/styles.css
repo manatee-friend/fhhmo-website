@@ -36,6 +36,7 @@ font-size: 1rem;
 .white-box{
   padding-top: 1%;
   padding-bottom: 1%;
+  margin-top: 20px;
 }
 
 .big-white-heading{
@@ -134,22 +135,98 @@ font-size: 1rem;
 .black{
   background-color: #010101;
   color: #ffffff;
-
 }
 
-#issues{
+.red {
   background-color: #ed1b30;
   color: #fff;
-
 }
 
 #title .container-fluid{
   padding: 3% 15% 7%;
 }
 
-#solution
-
 #current-initiatives{
   background-color: #010101;
   color: #fff;
+}
+
+#about-row {
+  border-top: 3px dashed white;
+}
+
+.thin-paragraph {
+  font-weight: 100;
+  font-style: italic;
+}
+
+.dot-separator {
+  font-size: 30px;
+}
+
+.drop-down {
+  border: 1px solid black;
+  height: 50px;
+  margin: 15px;
+  overflow: hidden;
+}
+
+.drop-down-value{
+  width: 90%;
+  margin-left: 5%;
+  text-align: left;
+}
+.drop-down-text>h3 {
+  text-align: left;
+}
+.drop-down-text>p {
+  text-align: left;
+  margin-top: -10px;
+}
+.profile-image {
+  display: inline-block;
+  width: 100px;
+}
+
+.drop-down-header {
+  text-align: center;
+  font-size: 30px;
+  margin-left: 25%; 
+  width: 50%; 
+  display: inline-block
+}
+
+.image-frame {
+  height: 400px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.image-frame>img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.btn-border {
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.row-space {
+  margin-top: 30px;
+}
+
+.drop-down-arrow{
+  margin-left: 10%; 
+  margin-top: -10px; 
+  width: 30px; 
+  height: 30px;
+}
+
+.btn-stretch {
+  width: 30%;
+  margin-left: 35%;
 }

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>FHHMO</title>
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,100&display=swap" rel="stylesheet">
 
   <!-- style sheet links -->
   <link rel="stylesheet" href="css/styles.css">
@@ -15,9 +15,13 @@
 
   <!-- Bootstrap Scripts -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- drop-down-handler-->
+  <script src="drop-down-handler.js"></script>
 
 </head>
 
@@ -26,9 +30,7 @@
   <section id="home">
     <div class="container-fluid">
 
-
-
-      <nav class="navbar navbar-expand-sm navbar-light ">
+      <nav class="navbar navbar-expand-sm navbar-light">
         <a class="navbar-brand" href="#">
           <img src="images/FHHMO_high_res_logo.png" alt="" width="282" height="57">
         </a>
@@ -85,7 +87,7 @@
 
 
   </section>
-  <section id="issues">
+  <section class="red">
 
     <!-- <ul>
       <li>medical inequalities</li>
@@ -95,7 +97,7 @@
       <li>A not-so representative medical workforce</li>
     </ul> -->
     <div class="container extra-padding">
-      <h3 class="feature-caption">The Issues</<h3>
+      <h3 class="feature-caption">The Issues</h3>
       <div class="row">
         <div class="feature-box col-lg-4 col-md-6 col-sm-6 issues-pictures">
           <img src="images/Inequality-symbol.svg" class="center" height="60" alt="" ></img>
@@ -138,13 +140,156 @@
         </div>
       </div>
 
-
-
-
-
-
-
   </section>
+
+
+<!-- Start  -->
+  <section class="black">
+    <div class="image-frame">
+      <img src="images/tmp_image.png">
+    </div>
+    <div class="container extra-padding">
+      <h3 class="feature-caption">About</h3>
+      <div class="row" id="about-row">
+        <div class="feature-box col-lg-6 col-md-6 col-sm-6">
+          <h3 class="feature-title">mission</h3>
+          <p class="dot-separator">...</p>
+          <p class="thin-paragraph">enchance inclusivity + diversity in the advancement of human health & medicine</p>
+        </div>
+
+        <div class="feature-box col-lg-6 col-md-6 col-sm-6">
+          <h3 class="feature-title">vision</h3>
+          <p class="dot-separator">...</p>
+          <p class="thin-paragraph">achieve health equity through student empowerment, opportunity, training + mentorship, and career development</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="feature-box col-lg-12 col-md-12 col-sm-12">
+          <a href="https://www.cdc.gov/drugresistance/index.html" class="btn btn-outline-light btn-stretch">our story</a>
+          </div>
+      </div>
+  </section>
+
+  <section>
+    <h3 class="feature-caption">Leadership</h3>
+    <div class="drop-down">
+      <p class="drop-down-header"> Board of Directors </p>
+      <img class="drop-down-arrow" src="images/down-arrow.png">
+      <div class="drop-down-value">
+        <!-- Template with profile-->
+        <div>
+          <img style="margin-top: -50px; border-radius: 5px;" class="profile-image" src="images/person.jpeg">
+          <div class="drop-down-text" style="padding: 10px; display: inline-block">
+            <h3> Bill Gates </h3>
+            <p class="thin-paragraph" >Microsoft <br> Bill and Melinda Gates Foundation</p>
+          </div>
+        </div>
+
+        <!-- End Template -->
+
+        <!-- Template without profile-->
+        <div class="drop-down-text">
+          <h3> Paxton Paganelli </h3>
+          <p class="thin-paragraph" >Co-Founder & President</p>
+        </div>
+        <!-- End Template -->
+
+      </div>
+    </div>
+
+    <div class="drop-down">
+      <p class="drop-down-header"> Advisory Board </p>
+      <img class="drop-down-arrow" src="images/down-arrow.png">
+      <div class="drop-down-value">
+        <!-- Insert Rows -->
+      </div>
+    </div>
+
+    <div class="drop-down">
+      <p class="drop-down-header"> Ambassadors </p>
+      <img class="drop-down-arrow" src="images/down-arrow.png">
+      <div class="drop-down-value">
+        <!-- Insert Rows -->
+      </div>
+    </div>
+
+    <div class="drop-down">
+      <p class="drop-down-header"> Committees </p>
+      <img class="drop-down-arrow" src="images/down-arrow.png">
+      <div class="drop-down-value">
+        <!-- Insert Rows -->
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- Initiatives 1 -->
+  <section class="red">
+    <div class="container extra-padding">
+      <h3 class="feature-caption">Initiatives</<h3>
+      <div class="row">
+        <div class="feature-box col-lg-4 col-md-6 col-sm-6">
+          <a href="google.com"> <h4 class="btn-border feature-title btn-outline-light">FHHMO Ambassadors</h4></a>
+        </div>
+        <div class="feature-box col-lg-4 col-md-6 col-sm-6">
+          <a href="google.com"> <h4 class="btn-border feature-title btn-outline-light">FHHMO Mini Health & Medicine Symposium</h4></a>
+        </div>
+        <div class="feature-box col-lg-4 col-md-6 col-sm-6">
+          <a href="google.com"> <h4 class="btn-border feature-title btn-outline-light">Healers Podcast</h4></a>
+        </div>
+        <div class="feature-box col-lg-4 col-md-6 col-sm-6">
+          <a href="google.com"> <h4 class="btn-border feature-title btn-outline-light">Anne Arundel Health Care Worker Appreciation Campaign</h4></a>
+        </div>
+        <div class="feature-box col-lg-4 col-md-6 col-sm-6">
+          <a href="google.com"> <h4 class="btn-border feature-title btn-outline-light">Teen Mental Health Night</h4></a>
+        </div>
+        <div class="feature-box col-lg-4 col-md-6 col-sm-6">
+          <a href="google.com"> <h4 class="btn-border feature-title btn-outline-light">Future Doctors Organization (FDO)</h4></a>
+        </div>
+      </div>
+  </section>
+
+  <!-- Initiatives 2 -->
+  <section>
+    <div class="row red row-space">
+      <div class="feature-box col-lg-12 col-md-12 col-sm-12">
+        <h3 class="feature-caption">Initiatives</<h3>
+      </div>
+    </div>
+    <div class="row red row-space">
+      <div class="feature-box col-lg-12 col-md-12 col-sm-12">
+        <a href="google.com"> <h4 class="feature-title btn-outline-light">FHHMO Ambassadors</h4></a>
+      </div>
+    </div>
+    <div class="row red row-space">
+      <div class="feature-box col-lg-12 col-md-12 col-sm-12">
+        <a href="google.com"> <h4 class="feature-title btn-outline-light">FHHMO Mini Health & Medicine Symposium</h4></a>
+      </div>
+    </div>
+    <div class="row red row-space">
+      <div class="feature-box col-lg-12 col-md-12 col-sm-12">
+        <a href="google.com"> <h4 class="feature-title btn-outline-light">Healers Podcast</h4></a>
+      </div>
+    </div>
+    <div class="row red row-space">
+      <div class="feature-box col-lg-12 col-md-12 col-sm-12">
+        <a href="google.com"> <h4 class="feature-title btn-outline-light">Anne Arundel Health Care Worker Appreciation Campaign</h4></a>
+      </div>
+    </div>
+    <div class="row red row-space">
+      <div class="feature-box col-lg-12 col-md-12 col-sm-12">
+        <a href="google.com"> <h4 class="feature-title btn-outline-light">Teen Mental Health Night</h4></a>
+      </div>
+    </div>
+    <div class="row red row-space">
+      <div class="feature-box col-lg-12 col-md-12 col-sm-12">
+        <a href="google.com"> <h4 class="feature-title btn-outline-light">Future Doctors Organization (FDO)</h4></a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- End  -->
 
   <section id="solution">
     <div class="container-fluid">
