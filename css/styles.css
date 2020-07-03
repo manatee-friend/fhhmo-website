@@ -230,3 +230,28 @@ font-size: 1rem;
   width: 30%;
   margin-left: 35%;
 }
+
+#insta-container {
+  margin-left: 10%; 
+  width: 80%; 
+  height: 640px
+}
+
+#back-to-top {
+  z-index: 1;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  height: 40px;
+  width: 50px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  color: black;
+  transform: rotate(180deg)
+}
+
+#back-to-top>img {
+  height: 30px;
+  bottom: 50px;
+}
