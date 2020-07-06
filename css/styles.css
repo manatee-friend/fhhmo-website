@@ -52,6 +52,23 @@ font-size: 1rem;
 /* Containers */
 
 /* Sections */
+.no-padding{
+  padding: 0;
+  margin: 0;
+}
+
+.no-top-padding{
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.black-box{
+  color: white;
+  background-color: black;
+}
+
 .black-background{
   background-color: #010101;
 }
@@ -141,6 +158,9 @@ font-size: 1rem;
   background-color: #ed1b30;
   color: #fff;
 }
+.platinum {
+  background-color: #E2E2E2;
+}
 
 #title .container-fluid{
   padding: 3% 15% 7%;
@@ -156,7 +176,7 @@ font-size: 1rem;
 }
 
 .thin-paragraph {
-  font-weight: 100;
+  font-weight: 200;
   font-style: italic;
 }
 
@@ -191,8 +211,8 @@ font-size: 1rem;
 .drop-down-header {
   text-align: center;
   font-size: 30px;
-  margin-left: 25%; 
-  width: 50%; 
+  margin-left: 25%;
+  width: 50%;
   display: inline-block
 }
 
@@ -216,13 +236,17 @@ font-size: 1rem;
 }
 
 .row-space {
-  margin-top: 30px;
+  margin-top: 25px;
+}
+
+.row-bottom-space{
+  margin-bottom: 25px;
 }
 
 .drop-down-arrow{
-  margin-left: 10%; 
-  margin-top: -10px; 
-  width: 30px; 
+  margin-left: 10%;
+  margin-top: -10px;
+  width: 30px;
   height: 30px;
 }
 
@@ -232,8 +256,8 @@ font-size: 1rem;
 }
 
 #insta-container {
-  margin-left: 10%; 
-  width: 80%; 
+  margin-left: 10%;
+  width: 80%;
   height: 640px
 }
 

@@ -26,6 +26,6 @@ $( ".drop-down" ).click(function() {
                 });
             }
         });
-    }   
+    }
 });
 });
