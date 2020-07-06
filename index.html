@@ -20,7 +20,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <!-- drop-down-handler-->
-  <script src="drop-down-handler.js"></script> 
+  <script src="drop-down-handler.js"></script>
 
 
 </head>
@@ -254,42 +254,145 @@
 
         <div class="feature-box col-sm">
           <div class="container">
-            <h3 class="feature-caption">About</h3>
+            <h3 class="feature-caption centralize">About</h3>
             <div class="row" id="about-row">
               <!-- MISSION -->
               <div class="feature-box col-sm">
-                <h3 class="feature-title">mission</h3>
-                <p class="dot-separator">...</p>
-                <p class="thin-paragraph">enchance inclusivity + diversity in the advancement of human health & medicine</p>
+                <h3 class="feature-title centralize">mission</h3>
+                <p class="dot-separator centralize">...</p>
+                <p class="thin-paragraph centralize">enchance inclusivity + diversity in the advancement of human health & medicine</p>
               </div>
               <!-- VISION -->
               <div class="feature-box col-sm">
-                <h3 class="feature-title">vision</h3>
-                <p class="dot-separator">...</p>
-                <p class="thin-paragraph">achieve health equity through student empowerment, opportunity, training + mentorship, and career development</p>
+                <h3 class="feature-title centralize">vision</h3>
+                <p class="dot-separator centralize">...</p>
+                <p class="thin-paragraph centralize">achieve health equity through student empowerment, opportunity, training + mentorship, and career development</p>
               </div>
             </div>
-            <p class="dot-separator">...</p>
+            <!-- <p class="dot-separator">...</p>
             <div class="row">
               <div class="feature-box col-lg-12 col-md-12 col-sm-12">
                 <a href="https://www.cdc.gov/drugresistance/index.html" class="btn btn-outline-light btn-stretch">our story</a>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
   </section>
 
   <section id="leadership">
-    <h3 style="margin-top: 20px" class="feature-caption">Leadership</h3>
-    <div class="drop-down">
+    <h3 style="margin-top: 20px" class="feature-caption centralize">Leadership</h3>
+
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link left-align" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Board of Directors
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body left-align">
+            <div class="left-align">
+              <h3 >Paxton Paganelli</h3>
+              <p class="no-top-spacing"> <i>President & Co-Founder</i></p>
+            </div>
+            <div class="left-align">
+              <h3 >Dr. Marc Brassard</h3>
+              <p class="no-top-spacing"><i>Chief Medical Officer & Co-Founder</i>
+              <br>Orthopedic Surgeon | Anne Arundel Medical Center</p>
+            </div>
+            <div class="left-align">
+              <h3 >Ivan George</h3>
+              <p class="no-top-spacing"><i>Co-Founder</i>
+              <br>Adm. Director MISTIC | Johns Hopkins Medicine</p>
+            </div>
+            <div class="left-align">
+              <h3 >Ald. Rhonda Pindell Charles</h3>
+              <p class="no-top-spacing">Annapolis City Council | Ward 3
+              <br>Anne Arundel County Public Schools</p>
+            </div>
+            <div class="left-align">
+              <h3> Dr. Kelly Sullivan</h3>
+              <p class="no-top-spacing"> Plastic & Reconstructive Surgeon | Sullivan Surgery Center
+              <br>Founder & President Emeritus | Wellness House of Annapolis</p>
+            </div>
+            <div class="left-align">
+              <h3> Jim Gibbons</h3>
+              <p class="no-top-spacing">Partner | Alpha Pointe Capital</p>
+            </div>
+            <div class="left-align">
+              <h3> Dr. Mary Beth Furst</h3>
+              <p class="no-top-spacing">Robert H. Smith School of Business
+              <br>University of Maryland, College Park</p>
+            </div>
+            <div class="left-align">
+              <h3> Adetola Ajayi</h3>
+              <p class="no-top-spacing"> Community Service Specialist | City of Annapolis</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Ambassadors
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <div class="feature-box col-lg-6 col-md-6 col-sm-6">
+              <img style="margin-top: -50px; border-radius: 5px;" class="profile-image" src="images/Ryan-Davis.png">
+              <div class="drop-down-text" style="padding: 10px; display: inline-block">
+                <h3> Ryan Davis </h3>
+                <p class="thin-paragraph">Severna Park High School <br> Severna Park, MD</p>
+              </div>
+            </div>
+            <div class="feature-box col-lg-6 col-md-6 col-sm-6">
+              <img style="margin-top: -50px; border-radius: 5px;" class="profile-image" src="images/Lillian-Kidd.png">
+              <div class="drop-down-text" style="padding: 10px; display: inline-block">
+                <h3> Lillian Kidd </h3>
+                <p class="thin-paragraph">Broadneck High School <br> Annapolis, MD</p>
+              </div>
+            </div>
+            <div class="feature-box col-lg-6 col-md-6 col-sm-6">
+              <img style="margin-top: -50px; border-radius: 5px;" class="profile-image" src="images/Krishna-Madhiwala.jpg">
+              <div class="drop-down-text" style="padding: 10px; display: inline-block">
+                <h3> Krishna Madhiwala</h3>
+                <p class="thin-paragraph">Broadneck High School <br> Annapolis, MD</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Committees
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <h3>Teen Mental Health Night</h3>
+            <h3>Anne Arundel Healthcare Workforce Appreciation</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="drop-down">
       <p class="drop-down-header"> Board of Directors </p>
       <img class="drop-down-arrow" src="images/down-arrow.png">
       <div class="drop-down-value">
 
 
-        <!-- Template without profile-->
-        <div class="row">
+        <!- Template without profile-->
+        <!-- <div class="row">
           <div class="feature-box col-lg-6 col-md-6 col-sm-6">
             <div class="drop-down-text">
               <h3> Paxton Paganelli </h3>
@@ -330,16 +433,15 @@
           </div>
           <!-- End Template -->
 
-        </div>
+        <!-- </div>
       </div>
-    </div>
-
-    <div class="drop-down">
+    </div> -->
+    <!-- <div class="drop-down">
       <p class="drop-down-header"> Advisory Board </p>
       <img class="drop-down-arrow" src="images/down-arrow.png">
       <div class="drop-down-value">
         <!-- Insert Rows -->
-      </div>
+      <!-- </div>
     </div>
 
     <div class="drop-down">
@@ -348,34 +450,34 @@
       <div class="drop-down-value">
         <!-- Insert Rows -->
         <!-- Template with profile-->
-        <div class="row">
+        <!-- <div class="row">
           <div class="feature-box col-lg-6 col-md-6 col-sm-6">
             <img style="margin-top: -50px; border-radius: 5px;" class="profile-image" src="images/person.jpeg">
             <div class="drop-down-text" style="padding: 10px; display: inline-block">
               <h3> Bill Gates </h3>
               <p class="thin-paragraph">Microsoft <br> Bill and Melinda Gates Foundation</p>
             </div>
-          </div>
-          <div class="feature-box col-lg-6 col-md-6 col-sm-6">
+          </div> -->
+          <!-- <div class="feature-box col-lg-6 col-md-6 col-sm-6">
             <img style="margin-top: -50px; border-radius: 5px;" class="profile-image" src="images/person.jpeg">
             <div class="drop-down-text" style="padding: 10px; display: inline-block">
               <h3> Bill Gates </h3>
               <p class="thin-paragraph">Microsoft <br> Bill and Melinda Gates Foundation</p>
             </div>
-          </div>
-        </div>
+          </div> -->
+        <!-- </div> -->
         <!-- End Template -->
 
-      </div>
-    </div>
+      <!-- </div>
+    </div> -->
 
-    <div class="drop-down">
+    <!-- <div class="drop-down">
       <p class="drop-down-header"> Committees </p>
       <img class="drop-down-arrow" src="images/down-arrow.png">
       <div class="drop-down-value">
         <!-- Insert Rows -->
-      </div>
-    </div>
+      <!-- </div>
+    </div> -->
 
   </section>
 
@@ -386,48 +488,48 @@
 
       <div class="row red row-space no-top-padding">
         <div class=" col-lg-12 col-md-12 col-sm-12 no-top-padding">
-          <h3 class="feature-caption">Initiatives</<h3>
+          <h3 class="feature-caption centralize">Initiatives</<h3>
         </div>
       </div>
       <div class="row red row-space no-top-padding">
         <div class="col-lg-12 col-md-12 col-sm-12 no-top-padding">
           <a href="google.com">
-            <h4 class="thin-paragraph btn-outline-light">FHHMO Ambassadors</h4>
+            <h4 class="thin-paragraph btn-outline-light centralize">FHHMO Ambassadors</h4>
           </a>
         </div>
       </div>
       <div class="row red row-space no-top-padding">
         <div class="col-lg-12 col-md-12 col-sm-12 no-top-padding">
           <a href="google.com">
-            <h4 class="thin-paragraph btn-outline-light no-top-padding">FHHMO Mini Health & Medicine Symposium</h4>
+            <h4 class="thin-paragraph btn-outline-light no-top-padding centralize">FHHMO Mini Health & Medicine Symposium</h4>
           </a>
         </div>
       </div>
       <div class="row red row-space no-top-padding">
         <div class="col-lg-12 col-md-12 col-sm-12 no-top-padding">
           <a href="google.com">
-            <h4 class="thin-paragraph btn-outline-light no-top-padding">Healers Podcast</h4>
+            <h4 class="thin-paragraph btn-outline-light no-top-padding centralize">Healers Podcast</h4>
           </a>
         </div>
       </div>
       <div class="row red row-space no-top-padding">
         <div class="col-lg-12 col-md-12 col-sm-12 no-top-padding">
           <a href="google.com">
-            <h4 class="thin-paragraph btn-outline-light no-top-padding">Anne Arundel Health Care Worker Appreciation Campaign</h4>
+            <h4 class="thin-paragraph btn-outline-light no-top-padding centralize">Anne Arundel Health Care Worker Appreciation Campaign</h4>
           </a>
         </div>
       </div>
       <div class="row red row-space no-top-padding">
         <div class="col-lg-12 col-md-12 col-sm-12 no-top-padding">
           <a href="google.com">
-            <h4 class="thin-paragraph btn-outline-light no-top-padding">Teen Mental Health Night</h4>
+            <h4 class="thin-paragraph btn-outline-light no-top-padding centralize">Teen Mental Health Night</h4>
           </a>
         </div>
       </div>
       <div class="row red row-space row-bottom-space no-top-padding">
         <div class="col-lg-12 col-md-12 col-sm-12 no-top-padding">
           <a href="google.com">
-            <h4 class="thin-paragraph btn-outline-light no-top-padding">Future Doctors Organization (FDO)</h4>
+            <h4 class="thin-paragraph btn-outline-light no-top-padding centralize">Future Doctors Organization (FDO)</h4>
           </a>
         </div>
       </div>
