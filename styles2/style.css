@@ -63,7 +63,12 @@ hr{
   padding-top: 1%;
   padding-bottom: 1%;
 }
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+}
 .center-pic {
   width: 170px;
   border-radius: 50%;
@@ -100,6 +105,11 @@ hr{
    border-color: white;
   border: 2px solid #eea4b2;
  }
+
+ .img-fluid {
+  max-width: 75%;
+  height: auto;
+}
 
 
 /* // Extra small devices (portrait phones, less than 576px) */
