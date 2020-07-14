@@ -81,6 +81,10 @@ br {
   background-color: #010101;
 }
 
+.white-background{
+  background-color: #ffffff;
+}
+
 .extra-padding{
   padding-top: 5%;
 }
